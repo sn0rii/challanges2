@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+            Operatory jednoargumentowe tzw unary
+            przyjmują pojedyńczy operand
+        */
+
+      let a = 1;
+      a++;
+      console.log(a); // 2
+
+      a = { data: "123", name: "Ola" };
+      delete a.data;
+      console.log(a);
+
+      console.log(typeof 123); // number
+
+      let c = +"12" + 10;
+      console.log(c); // 22
+
+      c = -"12" + 10;
+      console.log(c); // -2
+    </script>
+  </body>
+</html>

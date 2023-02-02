@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let carMilage = 1000;
+
+      if (carMilage < 0) {
+        console.log("Błąd silnika");
+      } else if (carMilage == 0) {
+        console.log("Nowe auto");
+      } else if (carMilage <= 100) {
+        console.log("Prawie nowe auto");
+      } else if (carMilage <= 10000) {
+        console.log("Auto wymaga przegladu");
+      } else if (carMilage <= 200000) {
+        console.log("Auto wymaga dokładnego sprawdzenia");
+      } else if (carMilage >= 1000000) {
+        console.log("Auto do remontu");
+      }
+    </script>
+  </body>
+</html>

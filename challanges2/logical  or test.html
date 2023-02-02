@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let carMilage = 1000;
+
+      if (true || true) console.log("#1"); //true
+      if (true || false) console.log("#2"); //true
+      if (true || true || false) console.log("#3"); //true
+      if (false || false || false) console.log("#4"); //false
+      if (32 === 32 || "ola" == "ola") console.log("#5"); //true
+      if (12 > 1 || 45 != "45" || 10 < 11) console.log("#6"); //true
+      if (100 !== "100" || 12 > 34) console.log("#7"); //true
+      if (1 < 0 || 3 >= 4 || 12 != 12) console.log("#8"); //false
+    </script>
+  </body>
+</html>
